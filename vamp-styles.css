@@ -159,11 +159,13 @@ img:not(.warn):not(.banner) {
 
 /* Style the tab */
 
-.tab {
+.tab, .tab button {
      overflow: hidden;
      border: 1px solid #AE3EFF;
      background-color: #FF4746;
      border-radius: 5px;
+     color: white;
+     border: none;
 }
 
 
@@ -171,7 +173,8 @@ img:not(.warn):not(.banner) {
 
 .tab button:hover {
      background-color: #F08080;
-     
+     color: white;
+     border: none;
 }
 
 
